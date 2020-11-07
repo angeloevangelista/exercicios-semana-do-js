@@ -1,7 +1,7 @@
 /*
   01
 
-  - Gere um novo array com apenas os números ímpares do array abaixo e exiba 
+  - Gere um novo array com apenas os números ímpares do array abaixo e exiba
     o novo array no console.
 */
 
@@ -29,7 +29,7 @@ console.log(countOfNumbersLessThan501);
 /*
   03
 
-  - Gere um novo array com cada um dos números abaixo elevados ao quadrado e 
+  - Gere um novo array com cada um dos números abaixo elevados ao quadrado e
     exiba o novo array no console.
 */
 
@@ -42,7 +42,7 @@ console.log(squaredNumbers);
 /*
   04
 
-  - Utilizando o array abaixo, gere um novo array com apenas os filmes lançados 
+  - Utilizando o array abaixo, gere um novo array com apenas os filmes lançados
     antes do ano 2000;
   - Exiba o novo array no console.
 */
@@ -70,7 +70,7 @@ console.table(tarantinoMoviesReleasedBefore2000);
   05
 
   - Gere um novo array que contém apenas os nomes das séries abaixo;
-  - Exiba o novo array no console.    
+  - Exiba o novo array no console.
 */
 
 const tvShows = [
@@ -84,6 +84,7 @@ const tvShows = [
 ];
 
 const tvShowsNames = tvShows.map((tvShow) => tvShow.name);
+// debugger <== Criar um breakpoint nas devTools do browser
 
 console.log(tvShowsNames);
 
@@ -91,10 +92,10 @@ console.log(tvShowsNames);
   06
 
   - Exiba no console uma lista dos nomes dos jogos do array abaixo;
-  - A lista deve ter a formatação exemplificada abaixo do array, considerando 
+  - A lista deve ter a formatação exemplificada abaixo do array, considerando
     inclusive o traço e o espaço antes de cada nome.
-  
-  Dica: para quebrar linha, você pode usar dentro da string o caractere 
+
+  Dica: para quebrar linha, você pode usar dentro da string o caractere
   especial \n.
 */
 
