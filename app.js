@@ -7,7 +7,9 @@
 
 const randomNumbers = [10, 30, 15, 25, 50, 40, 5];
 
-const oddNumbers = randomNumbers.filter((number) => number % 2 !== 0);
+const checkOddNumber = (number) => number % 2 !== 0;
+
+const oddNumbers = randomNumbers.filter(checkOddNumber);
 
 console.log(oddNumbers);
 
