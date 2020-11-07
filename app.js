@@ -19,8 +19,11 @@ console.log(oddNumbers);
 
 const crazyNumbers = [937, 5, 395, 402, 501, 333, 502, 781, 3, 691];
 
+const countNumbersLessThan501 = (accumulator, number) =>
+  number < 501 ? accumulator + 1 : accumulator;
+
 const countOfNumbersLessThan501 = crazyNumbers.reduce(
-  (accumulator, number) => (number < 501 ? accumulator + 1 : accumulator),
+  countNumbersLessThan501,
   0
 );
 
